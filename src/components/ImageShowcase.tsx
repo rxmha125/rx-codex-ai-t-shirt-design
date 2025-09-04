@@ -65,7 +65,7 @@ const ImageShowcase = () => {
 
       {/* Logo design */}
       <div className="flex justify-center">
-        <Card className="group relative overflow-hidden bg-gradient-card border-border/40 hover:border-primary/40 transition-all duration-500 hover:shadow-glow w-full max-w-md aspect-square before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-primary/10 before:to-accent/10 before:blur-xl before:opacity-50 before:-z-10">
+        <Card className="group relative overflow-hidden bg-gradient-card border-border/40 hover:border-primary/40 transition-all duration-500 hover:shadow-glow w-full max-w-xs aspect-square before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-primary/10 before:to-accent/10 before:blur-xl before:opacity-50 before:-z-10">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="absolute top-2 left-1/2 transform -translate-x-1/2 z-10">
             <span className="text-primary font-medium text-sm md:text-lg tracking-wide">Logo</span>
